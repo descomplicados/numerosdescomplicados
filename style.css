@@ -91,4 +91,9 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: #f0dada;
+  
+}
+.contactos h2 i {
+  margin-right: 0.5rem;
+  color: #dd7070;
 }
