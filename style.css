@@ -97,3 +97,39 @@ footer {
   margin-right: 0.5rem;
   color: #dd7070;
 }
+.contactos {
+  background-color: #ffeaea;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.contactos h2 {
+  color: #dd7070;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.contactos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.lado-esquerdo, .lado-direito {
+  flex: 1 1 200px;
+}
+
+.contactos p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.contactos i {
+  color: #dd7070;
+  margin-right: 0.5rem;
+}
