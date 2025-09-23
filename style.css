@@ -172,3 +172,39 @@ footer {
   padding: 1rem;
   background-color: #f0dada;
 }
+
+/* --------- Páginas das Fichas --------- */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main h3 {
+  margin-top: 2rem;
+  color: #dd7070;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+main ul {
+  list-style-type: none;
+  padding-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+main li {
+  margin: 0.5rem 0;
+}
+
+main a {
+  text-decoration: none;
+  color: #444;
+  font-weight: normal;
+  transition: 0.2s ease;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: #dd7070;
+}
