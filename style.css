@@ -208,3 +208,33 @@ main a:hover {
   text-decoration: underline;
   color: #dd7070;
 }
+
+/* Menu hamburguer */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  nav ul.nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul.nav-list.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul.nav-list li {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+}
