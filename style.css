@@ -242,26 +242,27 @@ main a:hover {
     text-align: center;
   }
 }
-/* Botão "Pedir Orçamento" - igual ao azul principal */
+/* ==== Botão "Pedir Orçamento" ==== */
 .btn-orcamento {
   background-color: #7dd6e8;     /* igual ao "Explorar Fichas" */
   color: black;
   padding: 0.8rem 1.5rem;
-  text-decoration: none;
   border-radius: 5px;
-  display: block;
-  margin: 0.8rem auto;
-  font-weight: 600;
+  text-decoration: none;
+  font-weight: normal;           /* igual ao botão explorar fichas */
+  font-size: 1rem;
+  display: block;                /* força a ficar por baixo */
+  margin: 0.6rem auto 0 auto;    /* menos espaço entre os botões */
   transition: 0.3s;
   width: fit-content;
 }
 
 .btn-orcamento:hover {
-  background-color: #66c6db;     /* ligeiro tom mais escuro no hover */
-  transform: translateY(-2px);
-  color: black;
+  background-color: #66c6db;
   text-decoration: none;
+  transform: translateY(-2px);
 }
+
 
 /* Corrigir alinhamento dos botões na secção hero */
 .hero-text {
