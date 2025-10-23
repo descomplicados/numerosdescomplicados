@@ -252,7 +252,7 @@ main a:hover {
   font-weight: normal;           /* igual ao botão explorar fichas */
   font-size: 1rem;
   display: block;                /* força a ficar por baixo */
-  margin: 0.6rem auto 0 auto;    /* menos espaço entre os botões */
+  margin: 0.2rem auto 0 auto;    /* menos espaço entre os botões */
   transition: 0.3s;
   width: fit-content;
 }
