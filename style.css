@@ -258,3 +258,13 @@ main a:hover {
   transform: translateY(-2px);
 }
 
+/* Corrigir alinhamento dos botões na secção hero */
+.hero-text {
+  text-align: center;
+}
+
+.hero-text a {
+  display: block;           /* força cada botão a ficar numa linha */
+  margin: 0.8rem auto;      /* centraliza e dá espaçamento */
+  width: fit-content;       /* mantém o tamanho justo ao texto */
+}
