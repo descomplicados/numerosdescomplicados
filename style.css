@@ -80,6 +80,8 @@ nav a:hover {
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 0.3rem; /* espaço pequeno abaixo do botão azul */
   transition: 0.3s;
 }
 
@@ -244,18 +246,19 @@ main a:hover {
 }
 /* ==== Botão "Pedir Orçamento" ==== */
 .btn-orcamento {
-  background-color: #7dd6e8;     /* igual ao "Explorar Fichas" */
+  background-color: #7dd6e8;
   color: black;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: normal;           /* igual ao botão explorar fichas */
+  font-weight: normal;
   font-size: 1rem;
-  display: block;                /* força a ficar por baixo */
-  margin: 0.2rem auto 0 auto;    /* menos espaço entre os botões */
+  display: block;
+  margin: 0 auto;              /* centralizado e sem margens verticais extra */
   transition: 0.3s;
   width: fit-content;
 }
+
 
 .btn-orcamento:hover {
   background-color: #66c6db;
