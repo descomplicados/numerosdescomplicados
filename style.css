@@ -285,3 +285,20 @@ main a:hover {
   box-shadow: none !important;
   cursor: default !important;
 }
+
+/* === Neutralizar completamente o hover das caixas informativas === */
+.highlight,
+.info-box {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
+
+.highlight:hover,
+.info-box:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+  background-color: inherit !important; /* evita mudança de cor */
+}
