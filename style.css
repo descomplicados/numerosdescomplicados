@@ -343,3 +343,27 @@ main a:hover {
   transform: none !important;
   cursor: default !important;
 }
+
+/* === Caixas informativas sempre visíveis === */
+.highlight,
+.info-box {
+  background-color: #ffffff;                /* fundo branco fixo */
+  border-radius: 10px;                     /* cantos suaves */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);/* sombra leve permanente */
+  padding: 1.5rem;
+  text-align: center;
+  transition: none !important;
+  transform: none !important;
+  cursor: default !important;
+  margin: 1rem auto;
+  max-width: 300px;                        /* ajusta conforme o layout */
+}
+
+/* hover não altera nada */
+.highlight:hover,
+.info-box:hover {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  transform: none !important;
+  cursor: default !important;
+}
