@@ -119,9 +119,7 @@ nav a:hover {
   transition: transform 0.2s;
 }
 
-.highlight:hover {
-  transform: translateY(-5px);
-}
+
 
 .highlight i {
   font-size: 2.5rem;
@@ -267,4 +265,8 @@ main a:hover {
   display: block;           /* força cada botão a ficar numa linha */
   margin: 0.8rem auto;      /* centraliza e dá espaçamento */
   width: fit-content;       /* mantém o tamanho justo ao texto */
+}
+
+.highlight:hover {
+  transform: none;
 }
