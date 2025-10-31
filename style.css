@@ -395,3 +395,26 @@ main a:hover {
   transform: none !important;
   cursor: default !important;
 }
+
+/* ===== Página Sobre Nós ===== */
+.sobre-nos {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.sobre-nos h2 {
+  color: #dd7070;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.sobre-nos p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
