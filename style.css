@@ -321,3 +321,25 @@ main a:hover {
   background-color: inherit !important;
   cursor: default !important;
 }
+
+/* === Caixas informativas estáticas (sem hover) === */
+.highlight,
+.info-box {
+  background-color: #ffffff;                 /* fundo branco suave */
+  border-radius: 10px;                      /* cantos arredondados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);/* sombra leve e fixa */
+  padding: 1.5rem;
+  text-align: center;
+  transition: none !important;              /* sem animação */
+  transform: none !important;
+  cursor: default !important;
+}
+
+/* Mesmo no hover, nada muda */
+.highlight:hover,
+.info-box:hover {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  transform: none !important;
+  cursor: default !important;
+}
