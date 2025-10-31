@@ -270,3 +270,18 @@ main a:hover {
 .highlight:hover {
   transform: none;
 }
+
+/* === Desativar completamente qualquer animação nas caixas === */
+.highlight,
+.info-box {
+  transition: none !important;
+  transform: none !important;
+  cursor: default !important;
+}
+
+.highlight:hover,
+.info-box:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
