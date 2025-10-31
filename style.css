@@ -367,3 +367,31 @@ main a:hover {
   transform: none !important;
   cursor: default !important;
 }
+
+/* === CAIXAS INFORMATIVAS SEMPRE VISÍVEIS === */
+.highlight,
+.info-box {
+  display: inline-block;                 /* aparecem lado a lado se houver espaço */
+  background-color: #ffffff !important;  /* fundo branco visível */
+  border-radius: 10px;                   /* cantos suaves */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12) !important; /* sombra fixa */
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  opacity: 1 !important;                 /* garantir que são visíveis */
+  visibility: visible !important;        /* garantir que não estão escondidas */
+  transform: none !important;            /* nada de movimentos */
+  transition: none !important;           /* sem efeitos */
+  cursor: default !important;
+}
+
+/* no hover, absolutamente nada muda */
+.highlight:hover,
+.info-box:hover {
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  cursor: default !important;
+}
