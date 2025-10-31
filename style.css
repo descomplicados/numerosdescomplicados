@@ -444,9 +444,10 @@ main a:hover {
 
 /* imagem topo */
 .imagem-sobre {
-  width: 100%;
-  max-width: 700px;
+  width: 90%;
+  max-width: 600px;                     /* antes era 700px */
   border-radius: 10px;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;             /* centraliza */
+  display: block;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
