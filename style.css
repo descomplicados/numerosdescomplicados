@@ -74,20 +74,30 @@ nav a:hover {
 }
 
 
-.btn {
+/* ==== Botões principais ==== */
+.btn,
+.btn-orcamento {
   background-color: #7dd6e8;
   color: black;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
-  display: inline-block;
-  margin-bottom: 0.3rem; /* espaço pequeno abaixo do botão azul */
-  transition: 0.3s;
+  display: block;
+  width: fit-content;
+  margin: 0.4rem auto;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.btn:hover {
+.btn:hover,
+.btn-orcamento:hover {
   background-color: #66c6db;
+  transform: translateY(-2px);
+  text-decoration: none;
 }
+
 
 /* ===== Highlights ===== */
 .highlights {
@@ -244,27 +254,7 @@ main a:hover {
     text-align: center;
   }
 }
-/* ==== Botão "Pedir Orçamento" ==== */
-.btn-orcamento {
-  background-color: #7dd6e8;
-  color: black;
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 1rem;
-  display: block;
-  margin: 0 auto;              /* centralizado e sem margens verticais extra */
-  transition: 0.3s;
-  width: fit-content;
-}
 
-
-.btn-orcamento:hover {
-  background-color: #66c6db;
-  text-decoration: none;
-  transform: translateY(-2px);
-}
 
 
 
