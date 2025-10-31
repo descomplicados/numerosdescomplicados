@@ -302,3 +302,22 @@ main a:hover {
   cursor: default !important;
   background-color: inherit !important; /* evita mudança de cor */
 }
+
+/* === CORREÇÃO FINAL: desativar qualquer efeito hover nas caixas === */
+.highlight,
+.info-box {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  background-color: inherit !important;
+  cursor: default !important;
+}
+
+.highlight:hover,
+.info-box:hover {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  background-color: inherit !important;
+  cursor: default !important;
+}
