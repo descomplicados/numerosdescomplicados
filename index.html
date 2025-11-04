@@ -133,6 +133,12 @@ document.querySelectorAll('.carrossel').forEach(carrossel => {
   const next = carrossel.querySelector('.next');
   let index = 0;
 
+  // Se só existir uma imagem, aplica a classe "single"
+  if (images.length === 1) {
+    carrossel.classList.add('single');
+    return;
+  }
+
   prev.addEventListener('click', () => {
     index = (index > 0) ? index - 1 : images.length - 1;
     wrapper.style.transform = `translateX(-${index * 100}%)`;
@@ -144,6 +150,7 @@ document.querySelectorAll('.carrossel').forEach(carrossel => {
   });
 });
 </script>
+
 
   
 </body>
