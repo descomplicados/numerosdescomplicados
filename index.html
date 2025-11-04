@@ -125,5 +125,26 @@ menu.addEventListener('click', () => {
 });
 </script>
 
+<script>
+document.querySelectorAll('.carrossel').forEach(carrossel => {
+  const wrapper = carrossel.querySelector('.imagens-wrapper');
+  const images = carrossel.querySelectorAll('img');
+  const prev = carrossel.querySelector('.prev');
+  const next = carrossel.querySelector('.next');
+  let index = 0;
+
+  prev.addEventListener('click', () => {
+    index = (index > 0) ? index - 1 : images.length - 1;
+    wrapper.style.transform = `translateX(-${index * 100}%)`;
+  });
+
+  next.addEventListener('click', () => {
+    index = (index < images.length - 1) ? index + 1 : 0;
+    wrapper.style.transform = `translateX(-${index * 100}%)`;
+  });
+});
+</script>
+
+  
 </body>
 </html>
