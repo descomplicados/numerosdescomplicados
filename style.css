@@ -564,3 +564,12 @@ button.prev {
 button.next {
   right: 5px;
 }
+
+/* Se o carrossel tiver só uma imagem, centra e remove setas */
+.carrossel.single .imagens button {
+  display: none;
+}
+
+.carrossel.single .imagens-wrapper {
+  justify-content: center;
+}
