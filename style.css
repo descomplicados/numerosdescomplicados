@@ -490,9 +490,13 @@ main a:hover {
 
 .dicas h2 {
   color: #dd7070;
-  font-size: 1.8rem;
+  font-size: 1.5rem; /* título mais discreto */
   margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
 }
+
 
 .dicas .intro {
   font-size: 1.1rem;
