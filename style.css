@@ -593,3 +593,19 @@ button.next {
   justify-content: center;
 }
 
+.testemunhos {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.testemunhos h2 {
+  color: #dd7070;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.testemunhos .intro {
+  color: #666;
+  margin-bottom: 2rem;
+}
